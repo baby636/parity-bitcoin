@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210114
 LABEL MAINTAINER="Parity Technologies <devops-team@parity.io>"
 
 # install tools and dependencies
