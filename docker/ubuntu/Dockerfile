@@ -34,7 +34,7 @@ RUN git clone https://github.com/paritytech/parity-bitcoin.git; \
     cargo build --release --verbose 
 
 # Runtime image, copies pbtc artifact from build image
-FROM ubuntu:bionic AS run
+FROM ubuntu:18.04 AS run
 LABEL maintainer "Parity Technologies <devops@parity.io>"
 
 WORKDIR /pbtc-ubuntu
